@@ -74,7 +74,7 @@
 
   <tr>
     <td>
-       <img src="./jumps/83/intro_83_uw.png" alt="Image 1" width=500"/>
+       <img src="./jumps/83/intro_83_uw.png" alt="Image 1" width=500/>
     </td>
     <td>
       <img src="./jumps/83/intro_83_uwc.png" alt="Image 2" width="500"/>
