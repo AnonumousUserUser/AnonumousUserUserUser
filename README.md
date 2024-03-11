@@ -3,8 +3,11 @@
 
 <h1>Dual-Camera Smooth Zoom on Mobile Phones</h1>
 
-<h2>Dual-Camera Non-Smooth Zoom</h2>
+<h2>(a) Existing dual-camera zoom</h2>
 
+<h3>
+Existing dual-camera zoom. For zooming between Ultra-Wide-Angle (UW) and Wide-Angle (W) cameras (i.e., from ×0.6 to ×1.0), smartphones (e.g., Xiaomi, OPPO, and vivo) generally crop out the specific area from the UW image, and scale the image up to the dimensions of the original. When the zoom factor changes from 0.9 to 1.0, the lens has to switch from UW to W, where notable geometric content and image color jump happen in the preview.
+</h3>
 
 <table>
    <colgroup>
@@ -13,20 +16,20 @@
     <col style="width: 25%;">
     <col style="width: 25%;">
   </colgroup>
-  <!-- <tr> 
+  <tr> 
      <td>
-          <center>   Ultra-Wide-Angle Image (x0.6)    </center>
+          <center>UW Image (x0.6)    </center>
     </td>
      <td>
-          <center>Cropped Ultra-Wide-Angle Image (x0.6)</center>
+          <center>UW Image (x0.9)</center>
     </td>
      <td>
-          <center>    Wide-Angle Image (x0.6)          </center>
+          <center>Camera Swiching (x0.9->x1.0)</center>
     </td>
      <td>
-          <center>UCamera Swiching (x0.9->x1.0)</center>
+          <center>W Image (x0.6)</center>
     </td>
-  </tr> -->
+  </tr>
   <tr>
     <td>
        <img src="./jumps/18/intro_18_uw.png" alt="Image 1" width="500"/>
@@ -89,7 +92,9 @@
 </table>
 
 
-<h2>Dual-camera Smooth Zoom</h2>
+<h2>(b) Dual-camera Smooth Zoom</h2>
+
+<h3>We introduce dual-camera smooth zoom (DCSZ) task, aiming to achieve a fluid zoom preview.</h3>
 <table>
 
    <colgroup>
@@ -100,13 +105,13 @@
 
   <tr> 
      <td>
-          <center>Ultra-Wide-Angle Image (x0.6)</center>
+          <center>UW Image (x0.6)</center>
     </td>
      <td>
-          <center>Wide-Angle Image (x1.0)</center>
+          <center>W Image (x1.0)</center>
     </td>
      <td>
-          <center>Dual-Camera Zoom (x0.6->x1.0)</center>
+          <center>Dual-Camera Smooth Zoom (x0.6->x1.0)</center>
     </td>
   </tr>
   <tr>
