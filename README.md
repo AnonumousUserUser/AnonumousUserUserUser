@@ -94,7 +94,9 @@ Existing dual-camera zoom. For zooming between Ultra-Wide-Angle (UW) and Wide-An
 
 <h2>(b) Dual-camera Smooth Zoom</h2>
 
-<h3>We introduce dual-camera smooth zoom (DCSZ) task, aiming to achieve a fluid zoom preview.</h3>
+<h3>We introduce dual-camera smooth zoom (DCSZ) task, aiming to achieve a fluid zoom preview.
+some smooth zoom sequences rendered from our ZoomGS are provided below.
+</h3>
 <table>
 
    <colgroup>
